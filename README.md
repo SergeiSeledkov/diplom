@@ -18,7 +18,7 @@
 
 ### Доступ администратора:
 
-* **login:** admin@admin.com,
+* **login:** admin@admin.com
 * **password:** 12345678
 * /admin/login
 
