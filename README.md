@@ -28,6 +28,9 @@
 composer install 
 ```
 
+Изменить файл env.example на env и внести свои параметры;
+
+
 Создание миграции:
 
 ```
@@ -49,6 +52,9 @@ npm install
 Запуск сервера:
 
 ```
-npm run dev
+npm run watch
+
+php artisan key:generate
+
 php artisan serve
 ```
