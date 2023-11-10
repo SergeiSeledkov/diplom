@@ -1,0 +1,7 @@
+В app/http.controllers/auth
+убрал : array у функции, ибо она возвращает на аррэй судя по всему, ошибку выдаёт
+
+запуск
+npm run watch
+
+php artisan serve
