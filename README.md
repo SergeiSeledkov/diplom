@@ -58,3 +58,5 @@ php artisan key:generate
 
 php artisan serve
 ```
+
+### Версия PHP 8.2.12, Laravel Framework 9.52.16
