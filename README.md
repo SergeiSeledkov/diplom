@@ -18,11 +18,9 @@
 
 ### Доступ администратора:
 
-* **login:** admin@gmail.com,
-* **password:** admin123
+* **login:** admin@admin.com,
+* **password:** 12345678
 * /admin/login
-
-PHP ver. 8.0, Laravel ver. 9.47.0, Composer, JS, React, SQLite
 
 ### Запуск:
 
@@ -30,23 +28,19 @@ PHP ver. 8.0, Laravel ver. 9.47.0, Composer, JS, React, SQLite
 composer install 
 ```
 
-установка файлa .env в корень проекта,
-<br/>
-создание базы данных database.sqlite в папке database
-
 Создание миграции:
 
 ```
 php artisan migrate
 ```
 
-Наполнение базы данных информацией (данные администратора, предустановленные фильмы):
+База данных:
 
 ```
 php artisan db:seed
 ```
 
-Установка пакетов package.json:
+Установка npm:
 
 ```
 npm install
